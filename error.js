@@ -2,6 +2,13 @@ setTimeout(()=>{
 console.log("Hacking wifi password...............please wait...........")
 },1000)
 
+try{
+console.log(Rahul)
+}
+catch(error){
+console.log("Your code has an error")
+}
+
 setTimeout(()=>{
     console.log("Getting a values")
 },2000)
