@@ -1,16 +1,11 @@
-let promise=new Promise(function(resolve,reject){
-    alert("Hello")
-    resolve(56)
+const myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Promise resolved!');
+    }, 2000);
 });
 
-//let promise = new Promise(function(resolve, reject) {});
-
-
-console.log("Hello one")
-setTimeout(()=>{
-    console.log("Hacking wifi password...............please wait...........")
-    },1000)
-
-    console.log("My name is"+" Hello world")
-
-console.log(promise)
+myPromise.then((result) => {
+    console.log(result);
+}).catch((error) => {
+    console.error(error);
+});
