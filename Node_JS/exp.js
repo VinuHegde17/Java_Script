@@ -11,7 +11,7 @@ app.get('/ailen',function (req,res) {
  
 app.get('/ailen/:id',function (req,res) {
     const id=req.params.id
-    res.send("Hello Naveen "+id)   
+    res.send("Hello JS "+id)   
 })
 
 app.listen(9000, function (req,res) {
