@@ -1,4 +1,4 @@
-const { log } = require("document/lib/lang")
+//const { log } = require("document/lib/lang")
 
 let ailen={
     name:"Naveen",
