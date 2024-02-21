@@ -3,7 +3,7 @@ console.log("Hacking wifi password...............please wait...........")
 },1000)
 
 try{
-console.log(Rahul)
+console.log(names)
 }
 catch(error){
 console.log("Your code has an error")
